@@ -25,6 +25,7 @@
 }
 .box-1 h3{
     padding-top: 20px;
+    font-weight: bold;
 }
 .circle-box {
     position: absolute;
@@ -36,12 +37,13 @@
     transform: translate(-50%, -50%);
     width: 150px;
     height: 150px;
-    background: rgb(150,147,214);
-    background: linear-gradient(0deg, rgba(150,147,214,1) 0%, rgba(12,104,172,0.31976540616246496) 57%, rgba(0,212,255,1) 100%);
+    background: rgb(103, 98, 192);
+    background: linear-gradient(0deg, rgb(118, 111, 238) 0%, rgba(85, 154, 207, 0.32) 57%, rgb(111, 144, 236) 100%);
     border-radius: 50%;
   }
   .circle-box h1{
     margin-top: 50px;
+    font-weight: bold;
   }
   
 .comment{
@@ -49,6 +51,9 @@
     position: absolute;
     width: 300px;
     top: 45%;
+}
+.comment h3{
+    font-weight: bold;
 }
 .box-2{
     float: left;
@@ -63,6 +68,148 @@
     z-index: 1;
     right: 10px;
 }
-@media screen and (max-width: 900px) {
-    
+.box-2 h2{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.button-1{
+    background: rgb(233,10,16);
+    background: linear-gradient(0deg, rgba(245, 53, 59, 0.116) 95%, rgba(244, 5, 9, 0) 98%, rgba(255, 0, 0, 0) 100%);
+    margin: 20px;
+    height: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 6px;
+}
+.button-2{
+    background: rgb(229, 233, 10);
+    background: linear-gradient(0deg, rgba(211, 226, 2, 0.171) 95%, rgba(235, 175, 11, 0) 98%, rgba(223, 163, 36, 0) 100%);
+    margin: 20px;
+    height: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 6px;
+}
+.button-3{
+    background: rgb(10, 233, 29);
+    background: linear-gradient(0deg, rgba(21, 226, 2, 0.171) 95%, rgba(11, 235, 30, 0) 98%, rgba(36, 223, 36, 0) 100%);
+    margin: 20px;
+    height: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 6px;
+}
+.button-4{
+    background: rgb(25, 10, 233);
+    background: linear-gradient(0deg, rgba(6, 2, 226, 0.171) 95%, rgba(52, 11, 235, 0) 98%, rgba(36, 48, 223, 0) 100%);
+    margin: 20px;
+    height: 40px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 6px;
+}
+.icon{
+    padding-left: 3px;
+    margin-left: -20px;
+}
+.react{
+    padding-left: 10px;
+}
+.memory{
+    padding-left: 10px;
+    color: rgb(240, 104, 13);
+}
+.verbal{
+    padding-left: 10px;
+    color: rgb(54, 138, 21);
+}
+.visual{
+    padding-left: 10px;
+    color: rgb(76, 21, 138);
+}
+#result{
+    margin-left: 70px;
+}
+
+.continue{
+    background-color: rgb(34, 34, 78);
+    margin: 50px 30px 30px 30px;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .box-1 h3{
+        padding-top: 30px;
+    }
+    .container{
+        top: 50%;
+        left: 50%;
+        margin: 0 auto;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        display: block;
+    }
+    .circle-box{
+        margin-top: -15px;
+    }
+    .comment{
+        margin-top: 20%;
+        position: absolute;
+        width: 300px;
+        top: 43%;
+    }
+    .box-2{
+        float: left;
+        background-color: #eee;
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 10px;
+        height: 380px;
+        color: black;
+        position: relative;
+        z-index: 1;
+        
+    }
+    .box-1{
+        background-color: rgb(93, 93, 219);
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20px;
+        height: 300px;
+        color: white;
+        float: left;
+        position: relative;
+        z-index: 2;
+        top: 50px;
+        right: 10px;
+      
+    }
+    .box-2 h2{
+        padding-top: 50px;
+    }
+    .continue{
+        background-color: rgb(34, 34, 78);
+        margin: 20px 10px 10px 10px;
+        color: white;
+        height: 40px;
+        padding-top: 10px;
+        border-radius: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
 }
